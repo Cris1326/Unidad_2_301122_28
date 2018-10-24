@@ -114,8 +114,7 @@ main aside {
 }
 
 main aside .twitter {
-  width: 120%;
-  height: 332px;
+  width: 100%;
 }
 
 main aside .visit {
