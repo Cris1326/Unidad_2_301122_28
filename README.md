@@ -6,9 +6,9 @@
 
 # Todas las paginas comparten la misma hoja de estilos, por lo tanto no es necesario genera cambios adicionales ya que la plantilla ya esta estructurada.
 
-# Para añadir contenido a una pagina, ubique el espacio llamado <main> y dentro de las etiquetas <p> añada la informacion que considere necesaria, es la unica modificacion necesaria.
+# Para añadir contenido a una pagina, ubique el espacio llamado "<<main>>" y dentro de las etiquetas "<<p>>" añada la informacion que considere necesaria, es la unica modificacion necesaria.
 
-# En la pagina de perfiles, tendra un espacio para añadir su informacion personal, por favor ubique su nombre y la seccion correspondiente para no alterar la estructura.
+# En la pagina de autores, tendra un espacio para añadir su informacion personal, por favor ubique su nombre y la seccion correspondiente para no alterar la estructura.
 
 # las imagenes que necesite subir, seran ubicadas en la carpeta img para mejor organizacion.
 
