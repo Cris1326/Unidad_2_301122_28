@@ -1,0 +1,50 @@
+$blue: #00628b
+$blue2: #003f5e
+$yellow: #f5b700
+
+
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: Arial, Helvetica, sans-serif
+
+body 
+    background: #f1f1f1
+
+.container
+    width: 1200px
+    margin: 10px auto
+
+header
+    width: 100%
+
+    .logos
+        display: block
+        transform: translate(15%)
+    .nav-bar
+        display: block
+
+        ul
+            list-style: none
+            li
+                float: left
+                background: $yellow
+                width: 20%
+                             
+                a, p 
+                    display: inline-block
+                    text-decoration: none
+                    padding: 10px
+                    transition: all .2s
+                    width: 100%
+                    text-align: center
+                    border-bottom: solid 3px #f1f1f1
+                a:hover, p:hover
+                    background: $blue
+                    border-bottom: solid 3px $yellow
+                    color: #fff
+main
+    clear: both
+    padding-top: 10px
+    
