@@ -27,23 +27,38 @@ header
 
         ul
             list-style: none
+            ul
+                display: none
+
             li
                 float: left
                 background: $yellow
                 width: 20%
+                font-size: 19px
+                line-height: 30px
+                position: relative
+                &:hover > ul 
+                    display: block
+                    position: absolute
+                    li
+                        width: 100%
                              
                 a, p 
-                    display: inline-block
+                    display: block
                     text-decoration: none
                     padding: 10px
                     transition: all .2s
                     width: 100%
                     text-align: center
                     border-bottom: solid 3px #f1f1f1
+                    color: #111
                 a:hover, p:hover
                     background: $blue
                     border-bottom: solid 3px $yellow
                     color: #fff
+                    &ul
+                        display: block
+
 main
     clear: both
     padding-top: 10px
